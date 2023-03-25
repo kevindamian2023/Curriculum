@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(211, 238, 243);
+}
+tr:hover{
+    background-color: blueviolet;
+}
+
+/*estilo por etiquetas*/
+
+#nombre{
+    border: 1px seagreen;
+    border-radius: 3px;
+    background-color: aqua;
+}
+
+
+input:valid,
+textarea:valid {
+    background: rgb(4, 255, 0);
+}
+input:invalid,
+textarea:invalid {
+    background: rgb(255, 0, 0);
+}
