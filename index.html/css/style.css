@@ -22,3 +22,13 @@ input:invalid,
 textarea:invalid {
     background: rgb(255, 0, 0);
 }
+
+input:valid,
+textarea:valid {
+    background: rgb(44, 247, 44);
+}
+
+input:invalid,
+textarea:invalid {
+    background: rgb(238, 223, 223);
+}
