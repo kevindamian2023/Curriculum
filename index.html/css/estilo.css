@@ -117,3 +117,87 @@ nav {
     box-shadow: 0 8px 32px rgb(97, 31, 0.46);
 
 }
+
+/* ##### FOOTER ##### */
+footer{
+    background: rgb(70, 70, 70);
+    padding: 50px o 20px 0; 
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    margin: auto;
+}
+.partFooter{
+    width: 22%;
+    text-align: center;   
+}
+.partFooter img{
+    width: 60%;
+}
+.partFooter h4{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px; /*esta funcion nos sirve para darle distanciamiento entre los elementos */
+    background-color: #d03d3d;
+    border-radius: 5px;
+    border: 1px solid #d03d3d;
+    padding: 5px;
+}
+.contact{
+     margin: 10px; /*se distancia 10 pixeles de los puntos cardinales */
+    display: block;
+    text-align: left;
+}
+.contact > i{
+    float: left; /* esta propiedad permite elementos al lado de el, en este caso hablamos de los logos de etiqueta i  */
+    margin: 0px 0px 0px 10px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%; /* con esto decimos que los bordes de las esquinas esten al 50% */
+    height: 30px;
+    width: 30px;
+    line-height: 28px;
+    text-align: center;
+    align-items: center;
+}
+.contact > p{
+    margin-left: 50px;
+    align-items: center;
+    line-height: 28px;
+    font-weight: 500;
+    color: white;
+}
+.partFooter > a{
+    display: block; /* esto me ayuda a que toda etiqueta a se convierta en un bloque y se acomoda */
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-weight: 500;
+    padding: 5px;
+    border-radius: 5px;
+}
+.partFooter > a:hover{
+    background-color: #d03d3d;
+    transition: all ease-in-out .6s;
+    border-radius: 5px;
+}
+.social-media > a > i{
+    font-size: 23px;
+    color: white;
+    display: inline-block; /* para que todos se mantengan alineados y esten en un solo bloque */
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    line-height: 36px;
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 5px;
+    transition: all ease-in-out.6s;
+}
+.social-media > a > i:hover{
+    background-color: #d03d3d;
+    border-color: #d03d3d;
+}
